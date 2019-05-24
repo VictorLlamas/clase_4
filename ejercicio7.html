@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <script type="application/javascript">
+            const totalCuenta = parseFloat(prompt("Cual es el total de la cuenta?")) 
+            const individuos = parseFloat(prompt("Cuantos indiduos son?")) 
+            const propina = parseFloat(prompt("Cuanto porcentage de propina quieres dejar?"))  // representado por un entero porcentual
+            const cuentaPorPersona = (totalCuenta + (totalCuenta * (propina/100))) / individuos
+            alert("A cada individuo le toca pagar: " + cuentaPorPersona + " pesos")
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

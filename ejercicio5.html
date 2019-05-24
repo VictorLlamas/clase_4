@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <script type="application/javascript">
+            const valorDeLaEmpresa = parseFloat(prompt("Cual es el valor de la empresa?")) 
+            const iva = parseFloat(prompt("Cual es el IVA?"))  //representado por un entero porcentual
+            const valorDeLaEmpresaRestandoIva = valorDeLaEmpresa - (valorDeLaEmpresa * (iva/100))
+            alert("Cada accionista tiene: " + valorDeLaEmpresaRestandoIva / 2 + " despues de quitarle el iva")
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
